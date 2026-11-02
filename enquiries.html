@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_assets/editcls.css">
+    <title>NOA-WEB - Enquiries</title>
+</head>
+<body>
+    <header>
+    <nav>
+          <h1>NOA-WEB</h1>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                </li>
+                <li><a href="about.html">AboutUs</a></li>
+
+                </li>
+                <li><a href="services.html">Services</a></li>
+
+                </li>
+                <li><a href="enquiries.html">Enquiries</a></li>
+
+                </li>
+                <li><a href="contacts.html">Contact</a></li>
+
+                </li>
+
+            </ul>
+            <img src="images/small.png" alt="Enquiries">
+            </header>
+   <main>
+    <h1>Request a Quote</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Business Type:</label>
+        <select name="business">
+            <option>Small Business</option>
+            <option>NPO</option>
+            <option>Startup</option>
+        </select>
+        <labe>Project Details:</label>
+            <textarea name="message"></textarea>
+            <button type="submit" class="btn">Submit Enquiry</button>
+    </form>
+    </main>
+    <footer><p>&copy; 2025 NOA-WEB. Founded by Mphahlele Moleke</p></footer>
+
+<meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Enquiry | MA Web Studios</title>
+
+    <meta name="description"
+    Content="Enquire about website design and development services from MA Web Studios.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>Noa-Web Studios</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+
+    <h2>Website Enquiry Form</h2>
+
+    <p style="text-align:center;">
+        Tell us about the website you need.
+        We will provide information about pricing and availability.
+    </p>
+
+    <div class="form-container">
+
+        <form id="enquiryForm">
+
+            <label for="enqName">Full Name:</label>
+
+            <input type="text" id="enqName"
+            Required minlength="3"
+            Placeholder="Enter your full name">
+
+            <label for="enqEmail">Email Address:</label>
+
+            <input type="email" id="enqEmail"
+            Required placeholder=example@email.com>
+
+            <label for="enqPhone">Phone Number:</label>
+
+            <input type="tel" id="enqPhone"
+            Required pattern="[0-9+ ]{10,15}"
+            Placeholder="+27 123456789">
+
+            <label for="enqService">Select a Service:</label>
+
+
+            <select id="enqService" required>
+
+                <option value="">Choose a service</option>
+
+                <option>Website Design</option>
+
+                <option>E-commerce Website</option>
+
+                <option>Website Redesign</option>
+
+                <option>Website Maintenance</option>
+
+                <option>SEO Services</option>
+
+            </select>
+
+            <label for="budget">Estimated Budget:</label>
+
+            <select id="budget" required>
+
+                <option value="">Select your budget</option>
+
+                <option>Below R1000</option>
+
+                <option>R1000 – R3000</option>
+
+                <option>R3000 – R5000</option>
+
+                <option>Above R5000</option>
+
+            </select>
+
+            <label for="enqMessage">Project Description:</label>
+
+            <textarea id="enqMessage"
+            Required minlength="10"
+            Placeholder="Describe the website you want...""></textarea>
+
+            <button type="submit" class="btn">
+                Submit Enquiry
+            </button>
+
+            <p id="enquiryResult" role="status"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2025 Noa-Web Studios. All Rights Reserved.</p>
+    <a href="index.html">Return Home</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
